@@ -1,0 +1,104 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li{
+	list-style: none;
+}
+#out{
+	width: 1300px;
+	height: 460px;
+	margin: 0 auto;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000; 
+
+}
+#header{
+	background-color: #ccc;
+	height: 20px;
+		
+}
+
+#header img{
+	display: inline-block;
+	margin-left: 100px;
+}
+#hidden{
+	width: 1008px;
+	height: 18px;
+	margin: 0 auto;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+		
+}
+#remind{
+	height: 18px;	
+	left: 800px;		
+	display: inline-block;	
+	color: red;
+	font-size: 10px;
+	position: absolute;
+		
+}
+
+.box{	
+	overflow: hidden;
+	width: 1200px;
+	height: 397px;
+	margin: 10px auto;
+	position: relative;
+}
+.slider{
+	
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.imgbox{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	color: white;
+	display: block;
+    width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	text-align: center;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+
+#nav .active{
+	background: red;
+	
+}
